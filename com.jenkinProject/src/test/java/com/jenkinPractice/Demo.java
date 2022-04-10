@@ -13,5 +13,9 @@ public class Demo {
 	{
 	    System.out.println("j2 running");	
 	}
+	public void j3()
+	{
+		System.out.println("j3 running");
+	}
 
 }
