@@ -6,13 +6,24 @@ public class ParameterTest {
 	@Test
 	public void p1()
 	{
-	System.out.println(System.getProperty("Browser"));	
+	System.out.println(System.getProperty("browser"));	
 	}
 	@Test
 	public void p2()
 	{
-		String user = System.getProperty("Username");
-	System.out.println(user);	
+		String user = System.getProperty("username");
+	    System.out.println(user);	
+	}
+	@Test
+	public void p3()
+	{
+		System.out.println(System.getProperty("url"));
+	}
+	@Test
+	public void p4()
+	{
+		String pass = System.getProperty("password");
+		System.out.println(pass);
 	}
 
 }
