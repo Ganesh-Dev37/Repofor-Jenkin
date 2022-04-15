@@ -2,7 +2,7 @@ package com.jenkinPractice;
 
 import org.testng.annotations.Test;
 
-public class HappyNewYear {
+public class HappyNewYearTest {
 	@Test
 	public void h1()
 	{
