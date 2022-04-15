@@ -13,5 +13,10 @@ public class HappyNewYear {
 	{
 		System.out.println("Happy New Year 2");
 	}
+	@Test
+	public void h3()
+	{
+		System.out.println("HAPPY NEW YEAR 3");
+	}
 
 }
